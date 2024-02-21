@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral70"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".flashscreen">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="261dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:src="@drawable/rent__roll_high_resolution_logo_black_transparent" />
+
+</RelativeLayout>
