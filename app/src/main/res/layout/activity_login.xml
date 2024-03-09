@@ -49,6 +49,5 @@
         android:id="@+id/button_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#0D0E0E"
         android:text="Log-in" />
 </LinearLayout>

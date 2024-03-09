@@ -73,13 +73,13 @@
 
 
     <EditText
-        android:id="@+id/txt_Date"
+        android:id="@+id/Email"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
+        android:layout_height="63dp"
         android:ems="10"
-        android:hint="DD/MM/YYYY"
-        android:inputType="date"
-        android:textColorHint="#090909" />
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#131313" />
 
     <EditText
         android:id="@+id/city"
@@ -92,13 +92,10 @@
         android:inputType="text"
         android:textColorHint="#0D0E0E" />
 
-
-
     <Button
         android:id="@+id/button_register"
         android:layout_width="match_parent"
         android:layout_height="63dp"
-        android:backgroundTint="#050505"
         android:text="Register"
         android:textSize="25dp" />
 

@@ -43,36 +43,110 @@
         android:text="Category Select"
         android:textSize="35sp" />
 
-    <RelativeLayout
-        android:id="@+id/category_image"
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="405dp"
-            android:layout_height="193dp"
-            android:layout_marginTop="10dp"
-            android:src="@drawable/verna" />
-
-        <Button
-            android:id="@+id/button_csbook"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="300dp"
-            android:layout_marginTop="150dp"
-            android:text="Book"
-            android:textColorLink="#00BCD4" />
+            android:orientation="vertical" >
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="80dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="170dp"
-            android:text="Vrena" />
+                <RelativeLayout
+                    android:id="@+id/category_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-    </RelativeLayout>
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="254dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/verna" />
+
+                    <Button
+                        android:id="@+id/button_csbook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="205dp"
+                        android:text="Book"
+                        android:textColorLink="#00BCD4" />
+
+                    <TextView
+                        android:id="@+id/textname"
+                        android:layout_width="78dp"
+                        android:layout_height="41dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="210dp"
+                        android:text="verna"
+                        android:textAlignment="center"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/textprice"
+                        android:layout_width="123dp"
+                        android:layout_height="41dp"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="210dp"
+                        android:text="2000/24h"
+                        android:textAlignment="center"
+                        android:textSize="24sp" />
+
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/category_image1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="254dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/virtus" />
+
+                    <Button
+                        android:id="@+id/button_csbook1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="215dp"
+                        android:text="Book"
+                        android:textColorLink="#00BCD4" />
+
+                    <TextView
+                        android:id="@+id/textname1"
+                        android:layout_width="78dp"
+                        android:layout_height="41dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="215dp"
+                        android:text="virtus"
+                        android:textAlignment="center"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/textprice1"
+                        android:layout_width="123dp"
+                        android:layout_height="41dp"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginTop="215dp"
+                        android:text="2200/24h"
+                        android:textAlignment="center"
+                        android:textSize="24sp" />
+
+
+
+                </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
 
 
 </LinearLayout>

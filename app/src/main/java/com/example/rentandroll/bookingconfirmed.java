@@ -7,25 +7,26 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Booking extends AppCompatActivity {
+public class bookingconfirmed extends AppCompatActivity {
+
     private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_booking);
+        setContentView(R.layout.activity_bookingconfirmed);
 
-        button = (Button) findViewById(R.id.button_book);
+        button = (Button) findViewById(R.id.button_BookingDone);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openactivity_bookingconfirmed();
+                openactivity_home();
             }
         });
-
     }
-    public void openactivity_bookingconfirmed() {
-        Intent intent = new Intent(this, bookingconfirmed.class);
+
+    public void openactivity_home() {
+        Intent intent = new Intent(this, home.class);
         startActivity(intent);
     }
 }
